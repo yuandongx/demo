@@ -12,7 +12,7 @@ class Group:
         self.work_days = []  # 工作日期
         self.cnt_rest = 0 # 休息了多少天
         self.current = 0  # 当前哪天
-        self._continue_work = 0 # 连上了多少天
+        self._continue_work = data.get('last_continue_works', 0) # 连上了多少天
         self._continue_rest = 0 # 连休了多少天
         self.work_x_rest_y = data['work_x_rest_y']
 
@@ -28,26 +28,58 @@ class Group:
         self._continue_work = 0
         self.cnt_rest += 1
         self._continue_rest += 1
-        # self.priority += 1
-
 
     def add_work_day(self, day):
         """已经工作的日期"""
         self.work_days.append(day)
         self._continue_work += 1
         self._continue_rest = 0
+
+    def must_work(self):
+        """
+        达到了最大的连休 或 还不到休息的要求的 必上班
+        :return: bool
+        """
+        return self._continue_rest >= self.rest_y[1] or 0 < self._continue_work < self.work_x[0]
+
+    def may_work(self):
+        """
+        可上 可休的
+        :return:
+        """
+        return 0 < self._continue_work < self.work_x[1] or 0 < self._continue_rest<self.rest_y[1]
+
+    def may_rest(self):
+        """
+        可上 可休的
+        :return:
+        """
+        return self._continue_work >= self.work_x[0] or  0 < self._continue_rest<self.rest_y[1]
+
+    def must_rest(self):
+        """
+        必须休息的
+        :return:
+        """
+        return self._continue_work >= self.work_x[1]
     
     @property
     def priority(self):
-        if len(self.work_days) == 0 and len(self.rest_days) == 0:
-            return self.work_x[1] - self.last_continue_works
+        if self._continue_rest == self.rest_y[1]: # 连休已经到了的
+            return  9999
+        elif 0 < self._continue_work < self.work_x[0]:
+            return  9998
         else:
-            if self._continue_rest == 0 and self._continue_work >= self.work_x[1]:
-                return 0
-            elif self.work_x[0] <= self._continue_work < self.work_x[1]:
-                return self.work_x[1] - self._continue_work
+            if len(self.work_days) == 0 and len(self.rest_days) == 0: # 第一天
+                return self.work_x[1] - self.last_continue_works
             else:
-                return 999 - self._continue_work 
+                base = self.cnt_rest*100
+                if self._continue_rest == 0 and self._continue_work >= self.work_x[1]: # 需要休了
+                    return base
+                elif self.work_x[0] <= self._continue_work < self.work_x[1]:
+                    return self.work_x[1] - self._continue_work + base
+                else:
+                    return 99 - self._continue_work
 
 
     @property
@@ -62,14 +94,10 @@ class Group:
     def chan_chu(self):
         return self.xn * self.number_of_person * self.avg_day_work_time()
 
-    def can_rest(self):
-        return self._continue_work >= self.work_x[0]
 
-    def must_rest(self):
-        return self._continue_work >= self.work_x[1]
 
     def __str__(self):
-        return f'{self.name}[{self.index}]'
+        return f'{self.name}<{self.index}><连休 {self._continue_rest}><连上 {self._continue_work}>'
 
     @classmethod
     def new(cls, data):

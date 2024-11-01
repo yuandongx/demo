@@ -113,7 +113,7 @@ class Rest:
                            "idx": self.amount,
                            "avg_day_work_time": self.avg_day_work_time,
                            "work_x_rest_y": self.work_x_rest_y,
-                           "last_continue_work_days": value[1]})
+                           "last_continue_works": value[1]})
             groups.append(g)
             index[g.index] = flag
             cnt += value[0]
