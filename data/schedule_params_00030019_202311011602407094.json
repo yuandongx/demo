@@ -1,0 +1,905 @@
+{
+  "current_month": [
+    2023,
+    9
+  ],
+  "last_busy_days": {
+    "忙日": [],
+    "日期范围": [
+      "2023-08-01",
+      "2023-08-31"
+    ]
+  },
+  "cus_group_belong": {},
+  "person_config": {
+    "自有": {
+      "1网格-1班": [
+        16,
+        1
+      ],
+      "1网格-2班": [
+        17,
+        3
+      ],
+      "1网格-3班": [
+        19,
+        1
+      ],
+      "1网格-4班": [
+        18,
+        3
+      ],
+      "1网格-5班": [
+        13,
+        2
+      ],
+      "1网格-6班": [
+        15,
+        5
+      ],
+      "1网格-9班": [
+        9,
+        2
+      ],
+      "2网格-1班": [
+        17,
+        3
+      ],
+      "2网格-2班": [
+        16,
+        4
+      ],
+      "2网格-3班": [
+        13,
+        3
+      ],
+      "2网格-4班": [
+        11,
+        3
+      ],
+      "2网格-5班": [
+        14,
+        1
+      ],
+      "2网格-6班": [
+        15,
+        5
+      ],
+      "2网格-9班": [
+        12,
+        5
+      ],
+      "3网格-1班": [
+        16,
+        5
+      ],
+      "3网格-2班": [
+        15,
+        5
+      ],
+      "3网格-3班": [
+        14,
+        4
+      ],
+      "3网格-4班": [
+        14,
+        2
+      ],
+      "3网格-5班": [
+        17,
+        3
+      ],
+      "3网格-6班": [
+        15,
+        1
+      ],
+      "3网格-9班": [
+        14,
+        4
+      ],
+      "4网格-1班": [
+        19,
+        3
+      ],
+      "4网格-2班": [
+        20,
+        2
+      ],
+      "4网格-3班": [
+        19,
+        4
+      ],
+      "4网格-4班": [
+        16,
+        4
+      ],
+      "4网格-5班": [
+        13,
+        1
+      ],
+      "4网格-6班": [
+        14,
+        2
+      ],
+      "4网格-7班": [
+        15,
+        2
+      ],
+      "5网格-1班": [
+        15,
+        2
+      ],
+      "5网格-2班": [
+        17,
+        5
+      ],
+      "5网格-3班": [
+        16,
+        1
+      ],
+      "5网格-4班": [
+        12,
+        4
+      ],
+      "5网格-5班": [
+        15,
+        3
+      ]
+    },
+    "众包": {
+      "1网格万声1班张慧怡": [
+        15,
+        1
+      ],
+      "1网格万声2班何娟": [
+        12,
+        1
+      ],
+      "1网格万声7班余潇": [
+        12,
+        2
+      ],
+      "1网格万声8班成华丹": [
+        12,
+        3
+      ],
+      "2网格万声3班蔡影": [
+        15,
+        3
+      ],
+      "2网格万声4班曾佳": [
+        14,
+        4
+      ],
+      "2网格万声6班吴艳梅": [
+        16,
+        3
+      ],
+      "2网格万声9班胡倩": [
+        14,
+        5
+      ],
+      "3网格正德10班高敏": [
+        9,
+        3
+      ],
+      "3网格正德1班杜娟": [
+        17,
+        2
+      ],
+      "3网格正德6班丰杨": [
+        19,
+        4
+      ],
+      "4网格正德2班陈静": [
+        16,
+        4
+      ],
+      "4网格正德3班田娟娟": [
+        18,
+        3
+      ],
+      "4网格正德4班姜玲": [
+        21,
+        4
+      ],
+      "5网格拓方1班赵泽元": [
+        14,
+        3
+      ],
+      "5网格拓方4班李晓宁": [
+        15,
+        2
+      ],
+      "5网格拓方5班李少辉": [
+        8,
+        2
+      ],
+      "5网格拓方6班白文燕": [
+        10,
+        5
+      ],
+      "5网格拓方7班关林炫": [
+        13,
+        5
+      ],
+      "5网格拓方8班耿振洲": [
+        15,
+        3
+      ],
+      "5网格正德8班刘舒洁": [
+        10,
+        5
+      ],
+      "5网格正德9班钦聪": [
+        10,
+        1
+      ]
+    },
+    "应急": {}
+  },
+  "busy_days": [],
+  "on_off_time": {
+    "staff_dim": {
+      "group_types": {
+        "zy": {
+          "all_days": [
+            "07:00",
+            "23:00"
+          ],
+          "busy_free": [],
+          "date_range": []
+        },
+        "zb": {
+          "all_days": [
+            "08:00",
+            "22:00"
+          ],
+          "busy_free": [],
+          "date_range": []
+        }
+      },
+      "persons": {},
+      "cus_group_types": {},
+      "groups": {}
+    },
+    "kg": "on"
+  },
+  "special_periods": {
+    "kg": "off"
+  },
+  "special_period_no_schedule": {
+    "kg": "off"
+  },
+  "custom_group_type": {
+    "kg": "off"
+  },
+  "meal_time": {
+    "staff_dim": {
+      "group_types": {
+        "all_group_types": {
+          "banduan": {
+            "全部班段": {
+              "all_days": [
+                "08:00-09:00",
+                "11:00-14:00",
+                "16:00-18:00"
+              ],
+              "date_range": [],
+              "busy_free": [],
+              "specific_period": []
+            }
+          },
+          "ban_types": {}
+        }
+      },
+      "persons": {},
+      "cus_group_types": {},
+      "groups": {}
+    },
+    "kg": "on"
+  },
+  "meal_duration": {
+    "staff_dim": {
+      "group_types": {
+        "all_group_types": {
+          "all_days": [
+            [
+              45,
+              60
+            ],
+            [
+              60,
+              120
+            ],
+            [
+              60,
+              120
+            ]
+          ],
+          "busy_free": [],
+          "date_range": []
+        }
+      },
+      "persons": {},
+      "cus_group_types": {},
+      "groups": {}
+    },
+    "kg": "on"
+  },
+  "work_x_rest_y": {
+    "staff_dim": {
+      "group_types": {
+        "all_group_types": {
+          "all_days": [
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          "busy_free": [],
+          "date_range": []
+        }
+      },
+      "persons": {},
+      "cus_group_types": {},
+      "groups": {}
+    },
+    "kg": "on"
+  },
+  "ban_type_rotate": {
+    "staff_dim": {
+      "group_types": {
+        "all_group_types": {
+          "all_days": [
+            [
+              "中晚",
+              "早晚",
+              "早中",
+              "早中"
+            ],
+            [
+              "中晚",
+              "早晚",
+              "早晚",
+              "早中"
+            ]
+          ],
+          "busy_free": [],
+          "date_range": []
+        }
+      },
+      "persons": {},
+      "cus_group_types": {},
+      "groups": {}
+    },
+    "kg": "on"
+  },
+  "flexible_shift": {
+    "kg": "off"
+  },
+  "work_percent": {
+    "kg": "off"
+  },
+  "banduan_count": {
+    "staff_dim": {
+      "group_types": {
+        "all_group_types": {
+          "all_days": [
+            2,
+            3
+          ],
+          "busy_free": [],
+          "date_range": []
+        }
+      },
+      "persons": {},
+      "cus_group_types": {},
+      "groups": {}
+    },
+    "kg": "on"
+  },
+  "banduan_percent": {
+    "staff_dim": {
+      "group_types": {
+        "all_group_types": {
+          "all_days": {},
+          "busy_free": [],
+          "date_range": []
+        }
+      },
+      "persons": {},
+      "cus_group_types": {},
+      "groups": {}
+    },
+    "kg": "on"
+  },
+  "banduan_duration": {
+    "staff_dim": {
+      "group_types": {
+        "all_group_types": {
+          "banduan": {
+            "全部班段": {
+              "all_days": [
+                1.0,
+                5.0
+              ],
+              "date_range": [],
+              "busy_free": [],
+              "specific_period": []
+            }
+          },
+          "ban_types": {}
+        }
+      },
+      "persons": {},
+      "cus_group_types": {},
+      "groups": {}
+    },
+    "kg": "on"
+  },
+  "banduan_interval": {
+    "staff_dim": {
+      "group_types": {
+        "all_group_types": {
+          "banduan": {
+            "全部班段": {
+              "all_days": [
+                0.5,
+                5.0
+              ],
+              "date_range": [],
+              "busy_free": [],
+              "specific_period": []
+            }
+          },
+          "ban_types": {}
+        }
+      },
+      "persons": {},
+      "cus_group_types": {},
+      "groups": {}
+    },
+    "kg": "on"
+  },
+  "total_duration": {
+    "staff_dim": {
+      "group_types": {
+        "all_group_types": {
+          "banduan": {
+            "全部段班": {
+              "all_days": [],
+              "date_range": [],
+              "busy_free": [
+                [
+                  9.0,
+                  9.0
+                ],
+                [
+                  8.0,
+                  9.0
+                ]
+              ],
+              "specific_period": []
+            }
+          },
+          "ban_types": {}
+        }
+      },
+      "persons": {},
+      "cus_group_types": {},
+      "groups": {}
+    },
+    "kg": "on"
+  },
+  "weekend_rest_count": {
+    "kg": "off"
+  },
+  "special_period_percent": {
+    "kg": "off"
+  },
+  "special_banci": {
+    "staff_dim": {
+      "group_types": {
+        "all_group_types": {
+          "all_days": {
+            "全部班段": {
+              "all_days": [
+                [
+                  7,
+                  17
+                ],
+                [
+                  22,
+                  12
+                ]
+              ],
+              "date_range": [],
+              "busy_free": [],
+              "specific_period": []
+            }
+          },
+          "busy_free": [],
+          "date_range": []
+        }
+      },
+      "persons": {},
+      "cus_group_types": {},
+      "groups": {}
+    },
+    "kg": "on"
+  },
+  "special_period_work_count": {
+    "kg": "off"
+  },
+  "breakfast": {
+    "staff_dim": {
+      "group_types": {
+        "all_group_types": {
+          "banduan": {
+            "全部班段": {
+              "all_days": [
+                [
+                  "08:00",
+                  "09:00"
+                ],
+                []
+              ],
+              "date_range": [],
+              "busy_free": [],
+              "specific_period": []
+            }
+          },
+          "ban_types": {}
+        }
+      },
+      "persons": {},
+      "cus_group_types": {},
+      "groups": {}
+    },
+    "kg": "on"
+  },
+  "lunch": {
+    "staff_dim": {
+      "group_types": {
+        "all_group_types": {
+          "banduan": {
+            "全部班段": {
+              "all_days": [
+                [
+                  "12:00",
+                  "13:00"
+                ],
+                []
+              ],
+              "date_range": [],
+              "busy_free": [],
+              "specific_period": []
+            }
+          },
+          "ban_types": {}
+        }
+      },
+      "persons": {},
+      "cus_group_types": {},
+      "groups": {}
+    },
+    "kg": "on"
+  },
+  "dinner": {
+    "staff_dim": {
+      "group_types": {
+        "all_group_types": {
+          "banduan": {
+            "全部班段": {
+              "all_days": [
+                [
+                  "16:00",
+                  "18:00"
+                ],
+                []
+              ],
+              "date_range": [],
+              "busy_free": [],
+              "specific_period": []
+            }
+          },
+          "ban_types": {}
+        }
+      },
+      "persons": {},
+      "cus_group_types": {},
+      "groups": {}
+    },
+    "kg": "on"
+  },
+  "seat_same_banci": {
+    "staff_dim": {
+      "group_types": {
+        "all_group_types": {
+          "all_days": true,
+          "busy_free": [],
+          "date_range": []
+        }
+      },
+      "persons": {},
+      "cus_group_types": {},
+      "groups": {}
+    },
+    "kg": "on"
+  },
+  "taixi": {
+    "staff_dim": {
+      "group_types": {
+        "all_group_types": {
+          "all_days": [
+            400,
+            500
+          ],
+          "busy_free": [],
+          "date_range": []
+        }
+      },
+      "persons": {},
+      "cus_group_types": {},
+      "groups": {}
+    },
+    "kg": "on"
+  },
+  "before_rest_after": {
+    "kg": "off"
+  },
+  "total_work_time": {
+    "staff_dim": {
+      "group_types": {
+        "all_group_types": {
+          "all_days": [
+            185,
+            190
+          ],
+          "busy_free": [],
+          "date_range": []
+        }
+      },
+      "persons": {},
+      "cus_group_types": {},
+      "groups": {}
+    },
+    "kg": "on"
+  },
+  "rest_count": {
+    "staff_dim": {
+      "group_types": {
+        "all_group_types": {
+          "all_days": [
+            8,
+            8
+          ],
+          "busy_free": [],
+          "date_range": []
+        }
+      },
+      "persons": {},
+      "cus_group_types": {},
+      "groups": {}
+    },
+    "kg": "on"
+  },
+  "cont_rest_count": {
+    "staff_dim": {
+      "group_types": {
+        "all_group_types": {
+          "all_days": [
+            [
+              2,
+              2,
+              4
+            ],
+            [],
+            []
+          ],
+          "busy_free": [],
+          "date_range": []
+        }
+      },
+      "persons": {},
+      "cus_group_types": {},
+      "groups": {}
+    },
+    "kg": "on"
+  },
+  "cont_work_count": {
+    "staff_dim": {
+      "group_types": {
+        "all_group_types": {
+          "all_days": [
+            1,
+            5
+          ],
+          "busy_free": [],
+          "date_range": []
+        }
+      },
+      "persons": {},
+      "cus_group_types": {},
+      "groups": {}
+    },
+    "kg": "on"
+  },
+  "off_work_later_count": {
+    "kg": "off"
+  },
+  "ban_interval_percent": {
+    "kg": "off"
+  },
+  "ban_type_percent": {
+    "kg": "off"
+  },
+  "adjoin_day_interval": {
+    "kg": "off"
+  },
+  "off_work_no_dinner_count": {
+    "kg": "off"
+  },
+  "lunch_dinner_interval": {
+    "staff_dim": {},
+    "kg": "off"
+  },
+  "work_time_max_variance": {
+    "staff_dim": {
+      "group_types": {
+        "zy": {
+          "banduan": {
+            "全部班段": {
+              "all_days": 0,
+              "date_range": [],
+              "busy_free": [],
+              "specific_period": []
+            }
+          },
+          "ban_types": {}
+        },
+        "zb": {
+          "banduan": {
+            "全部班段": {
+              "all_days": 0,
+              "date_range": [],
+              "busy_free": [],
+              "specific_period": []
+            }
+          },
+          "ban_types": {}
+        }
+      },
+      "persons": {},
+      "cus_group_types": {},
+      "groups": {}
+    },
+    "kg": "on"
+  },
+  "ban_type_max_variance": {
+    "staff_dim": {
+      "group_types": {
+        "all_group_types": {
+          "all_days": {
+            "早晚": 4,
+            "中晚夜": 11,
+            "中晚": 13
+          },
+          "busy_free": [],
+          "date_range": []
+        }
+      },
+      "persons": {},
+      "cus_group_types": {},
+      "groups": {}
+    },
+    "kg": "on"
+  },
+  "weekend_rest_variance": {
+    "kg": "off"
+  },
+  "meal_variance": {
+    "kg": "off"
+  },
+  "rest_variance": {
+    "kg": "off"
+  },
+  "special_ban_variance": {
+    "staff_dim": {
+      "group_types": {
+        "all_group_types": {
+          "all_days": [
+            [
+              "08:00",
+              1
+            ],
+            [
+              "22:00",
+              2
+            ]
+          ],
+          "busy_free": [],
+          "date_range": []
+        }
+      },
+      "persons": {},
+      "cus_group_types": {},
+      "groups": {}
+    },
+    "kg": "on"
+  },
+  "banci_variance": {
+    "staff_dim": {
+      "group_types": {
+        "all_group_types": {
+          "all_days": 2,
+          "busy_free": [],
+          "date_range": []
+        }
+      },
+      "persons": {},
+      "cus_group_types": {},
+      "groups": {}
+    },
+    "kg": "on"
+  },
+  "period_fit_degree": {
+    "staff_dim": {
+      "group_types": {
+        "all_group_types": {
+          "all_days": [
+            85.0,
+            60.0
+          ],
+          "busy_free": [],
+          "date_range": []
+        }
+      },
+      "persons": {},
+      "cus_group_types": {},
+      "groups": {}
+    },
+    "kg": "on"
+  },
+  "day_fit_degree": {
+    "staff_dim": {
+      "group_types": {
+        "all_group_types": {
+          "all_days": [
+            90.0,
+            60.0
+          ],
+          "busy_free": [],
+          "date_range": []
+        }
+      },
+      "persons": {},
+      "cus_group_types": {},
+      "groups": {}
+    },
+    "kg": "on"
+  },
+  "month_fit_degree": 90.0,
+  "month_connect_rate": {
+    "kg": "off"
+  },
+  "day_connect_rate": {
+    "kg": "off"
+  },
+  "period_connect_rate": {
+    "kg": "off"
+  }
+}
